@@ -1,0 +1,225 @@
+@media(max-width:1150px){
+    .nav__info{
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .intro__title{
+        font-size: 80px;
+        line-height: 100%;
+    }
+    .intro__link{
+        width: 165px;
+        height: 40px;
+        margin-top: 25px;
+        font-size: 18px;
+    }
+    .intro{
+        padding-top: 70px;
+        padding-bottom: 140px;
+    }
+    .phones__cards{
+        max-width: 800px;
+        width: 100%;
+        overflow: scroll;
+        margin: 0 auto;
+        gap: 20px;
+    }
+    .top , .mid , .btm{
+        justify-content: center;
+    }
+    .btm{
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .line{
+        display: none;
+    }
+    .btm__text{
+        width: 500px;
+    }
+    .btm__text p:nth-of-type(1) , .btm__text p:nth-of-type(2){
+        text-align: center;
+    }
+    .top{
+        gap: 25px;
+    }
+    .top__img img , .mid__img img{
+        width: 500px;
+    }
+    .top__text, .mid__text{
+        width: 250px;
+    }
+    .btm__img img{
+        width: 230px;
+    }
+    .intro__link img{
+        width: 12px;
+    }
+}
+@media(max-width:850px){
+     .menu{
+         display: block;
+         cursor: pointer;
+     }
+     .close{
+         display: block;
+         position: absolute;
+         top: 20px;
+         right: 20px;
+         cursor: pointer;
+     }
+     .nav__list{
+         position: absolute;
+         flex-direction: column;
+         background-color: #282828;
+         left: -200px;
+         top: 0;
+         padding: 50px;
+         align-items: center;
+         gap: 30px;
+         height: 100%;
+         z-index: 99;
+         transition: 0.5s;
+     }
+     #inp:checked ~ .nav__list{
+         left: 0;
+     }
+     label{
+         order: -1;
+     }
+     .nav__info{
+        max-width: 450px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .intro__title{
+        font-size: 50px;
+        line-height: 100%;
+    }
+    .intro__link{
+        font-size: 16px;
+        margin-top: 20px;
+        width: 150px;
+    }
+    .intro__link img{
+        width: 14px;
+        height: 14px;
+    }
+    .intro{
+        padding-top: 60px;
+        padding-bottom: 120px;
+    }
+    .top{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .mid{
+        flex-direction: column;
+    }
+    .top{
+        gap: 20px;
+    }
+    .top__img img , .mid__img img{
+        width: 400px;
+    }
+    .btm__img img{
+        width: 200px;
+    }
+    .phones__cards{
+        max-width: 530px;
+        flex-wrap: wrap;
+    }
+    .footer__imgs img{
+        width: 65px;
+    }
+    .footer__logo img{
+        width: 85px;
+    }
+}
+@media(max-width:650px){
+    .intro__title{
+        font-size: 40px;
+        line-height: 100%;
+    }
+    .footer__list{
+        gap: 25px;
+    }
+}
+@media(max-width:550px){
+    .phones__cards{
+        padding: 15px;
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+    .phones__card{
+        width: 215px;
+    }
+    .footer__list{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer__imgs img{
+        width: 55px;
+    }
+    .footer__logo img{
+        width: 70px;
+    }
+    .btm__text{
+        width: 400px;
+    }
+    .intro__link{
+        width: 140px;
+        font-size: 15px;
+        line-height: 100%;
+    }
+    .btm__text{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 5;
+        overflow: hidden;
+    }
+    .mid__text , .top__text{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 7;
+        overflow: hidden;
+    }
+}
+@media(max-width:500px){
+    .top__img img , .mid__img img{
+        width: 350px;
+    }
+    .btm__img img{
+        width: 175px;
+    }
+    .footer__logo img{
+        width: 65px;
+    }
+    .footer__imgs img{
+        width: 50px;
+    }
+    .footer__list-box , .footer__list{
+        max-width: 100px;
+        width: 100%;
+        overflow: scroll;
+    }
+    .btm__text{
+        width: 300px;
+    }
+}
+@media(max-width:400px){
+    .footer__list-box , .footer__list{
+        max-width: 80px;
+        width: 100%;
+        overflow: scroll;
+    }
+    .top__img img , .mid__img img{
+        width: 290px;
+    }
+    .footer__list{
+        gap: 15px;
+    }
+}
